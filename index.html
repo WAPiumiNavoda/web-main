@@ -379,18 +379,21 @@
              </div>
              <div class="col-lg-6 order-lg-first">
                <div
-       class="about-image text-center mt-50 wow fadeInRightBig"
-       data-wow-duration="1s"
-       data-wow-delay="0.5s"
-     >
-       <img 
-         src="assets/images/system.jpg" 
-         alt="about" 
-         style="border: 5px solid #333; border-radius: 15px; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" 
-       />
-     </div>
-               <!-- about image -->
+                 class="about-image text-center mt-50 wow fadeInRightBig"
+                 data-wow-duration="1s"
+                 data-wow-delay="0.5s"
+                 style="position: relative;"
+               >
+                 <img 
+                   src="assets/images/system.jpg" 
+                   alt="about" 
+                   style="border: 5px solid #333; border-radius: 15px; padding: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.5s, box-shadow 0.5s; border-color: #333;"
+                   onmouseover="this.style.transform='scale(1.5)'; this.style.boxShadow='0 16px 32px rgba(0, 0, 0, 0.4)'; this.style.borderColor='#555';"
+                   onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.1)'; this.style.borderColor='#333';"
+                 />
+               </div>
              </div>
+             
            </div>
            <!-- row -->
          </div>
